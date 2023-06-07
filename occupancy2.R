@@ -336,10 +336,10 @@ lines(upper ~ elevation, pred.glm, type="l", col=gray(0.5))
 
 # Or using visreg package
 visreg(fit=glm.mod1, xvar="elevation", 
-       gg = TRUE, 
+       gg=TRUE, 
        scale="response") +
-  labs(y = "Habitat use prob", 
-       x = "Elevation (standardised)")
+  labs(y="Habitat use prob", 
+       x="Elevation (standardised)")
 
 
 ##################################### END ##################################
