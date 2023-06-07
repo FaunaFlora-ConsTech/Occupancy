@@ -313,6 +313,8 @@ par(mfrow=c(1, 1))
 # Plot the relationship between (apparent) occupancy and covariate
 
 library(dplyr)
+library(visreg)
+library(ggplot2)
 
 # I will demonstrate for elevation
 # Prepare new data frame for prediction 
